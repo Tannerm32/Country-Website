@@ -1,0 +1,115 @@
+/*
+
+selector{
+
+    property: value;
+    property: value;
+    etc......
+}
+
+
+Writing selectors:
+
+tagname -> selects akk tags of a given type
+.classname -> selects all members of a given class
+tagname.classname -> selects only tags that are also members of a given class
+
+> -> child symbol
+
+tagname>tagname
+tagname>.classname
+.classname>.classname
+.classname>tagname
+
+
+
+to center image 
+img {
+    display block
+    width 30%
+    hieght auto
+    margin auto
+}    
+
+for backroud picture
+
+body{
+    backround-image url(imagelink)
+    backround-reapeat  no repeat
+    backround size cover
+}
+
+to round 
+
+
+*/
+
+.nav {
+
+    list-style: none;
+
+    border-style: dotted;
+
+    padding-left: 0;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.nav>li {
+
+    border-style: ridge;
+
+    display: inline-block;
+    background-color: royalblue;
+    border-radius: 10px;
+}
+
+.nav>li>a {
+text-decoration: none;
+color: seashell;
+}
+
+img {
+
+    width: 30%;
+    height: 90px;
+    margin: auto;
+    display: inline-block;
+    
+
+}
+
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+body {
+
+    background-image: url(images/Flag.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+h1.Fact1 {
+    text-align: center;
+    color: rgb(0, 4, 250);
+    
+}
+img.fact1 {
+
+    display: inline-block;
+    margin: auto;
+    
+
+}
+h1.fact2 {
+    text-align: center;
+    color: darkred;
+}
